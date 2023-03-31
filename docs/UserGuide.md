@@ -161,7 +161,7 @@ ______________________________
 ### Finding food products by name: <code>find</code>
 List all food product with matching name.
 
-Format: <code>find FOOD_NAME {-fresh} {-expired}</code>
+Format: <code>find FOOD_NAME {-fresh} {-expired} {-c category_name}</code>
 
 - The search is not case-sensitive.
   - E.g. eggs will match Eggs
@@ -171,6 +171,7 @@ Format: <code>find FOOD_NAME {-fresh} {-expired}</code>
   - E.g. Blueberry will return Blueberry Yogurt, Blueberry
 - Adding the filter <code>-fresh</code> would list only the unexpired food products.
 - Adding the filter <code>-expired</code> would list only the expired food products.
+- Adding the filter <code>-c name</code> would list only the food products inside the provided category
 
 Example of Usage:
 
